@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "zyon",
+  "version": "${version}",
+  "name": "Zyon Client",
+  "description": "Client-side discovery HUD and configurable ClickGUI for Minecraft 1.21.11.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.zyon.client.ZyonClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
